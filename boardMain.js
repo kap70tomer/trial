@@ -1,10 +1,11 @@
 (function () { //Onload flow.
     let index=0;
 
-    
+
 
 
    getTasksArrayFromLocalStorage()
+   
 //On page load GET tasksArray that might be on stored from befor.
         if (tasksArray == null)
         {//if ther are no saved tasks? make place for new, using 'Constractor'.
