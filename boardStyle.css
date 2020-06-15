@@ -1,0 +1,95 @@
+body {
+    height: 100%;
+    background-image: url("./boardAssets/tile.jpg");
+    background-repeat: repeat;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#UImission{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    background-image: url("./boardAssets/formbg.jpg");
+}
+label{
+    float: right;
+}
+.optionaLable{
+    float: left;
+}
+Input{
+   
+    text-align: center;
+    width: 22%;
+    border: none;
+}
+#missionInput{
+    width: 77%;
+}
+#dateInput{
+    float: left;
+}
+#tasksOnBoard{
+    height:100% ;
+    width: 100%;
+}
+#tasksOnBoard> div {
+    width: 170px;
+    height: 250px;
+    margin: 5px;
+    padding-top: 25px;
+    display: inline-block;
+    position: relative;
+background-image: url("./boardAssets/notebg.png");
+background-repeat: no-repeat;
+}
+div:hover> img { 
+    position: absolute;
+    right: 2px;
+    top: 20px;
+    width: 25px;
+    height: 25px;
+  background-image: url("https://img.icons8.com/windows/32/000000/x-men.png");
+}
+.mission{
+    
+    word-wrap: break-word;
+    overflow: hidden;
+    left: 1px;
+    top: 25px;
+    width: 170px;
+    height: 185px;
+}
+.mission:hover{
+    max-height: 185px;
+    overflow: auto ;
+}
+.date{
+    position: absolute;
+    left: 2px;
+    top: 206px;
+    width: 100px;
+}
+.time{
+    position: absolute;
+    left: 2px;
+    top: 220px;
+    width: 45px;
+    height: 20px;
+}
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
