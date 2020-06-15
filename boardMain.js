@@ -1,6 +1,8 @@
 (function () { //Onload flow.
     let index=0;
+
     
+
 
    getTasksArrayFromLocalStorage()
 //On page load GET tasksArray that might be on stored from befor.
