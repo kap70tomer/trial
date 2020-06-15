@@ -5,13 +5,16 @@
 
 
    getTasksArrayFromLocalStorage()
-   
+
 //On page load GET tasksArray that might be on stored from befor.
         if (tasksArray == null)
         {//if ther are no saved tasks? make place for new, using 'Constractor'.
         tasksArray = new Array;
         }
    displayTasksOnBoard();
+
+
+   
 //Display on load, Tasks from storage or NOT if there isn't display "blank".
 })();
 
